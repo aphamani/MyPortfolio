@@ -1,0 +1,60 @@
+.skillsContainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.skillsContainer h2 {
+    margin-top: 70px;
+    margin-bottom: 97px;
+}
+
+.skillsContainer ul {
+    list-style: none;
+}
+
+
+.skillsContainer ul li p span {
+    background: #000;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.HTML {
+    height: 8px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.javaScript {
+    height: 8px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.react {
+    height: 8px;
+    width: 150px;
+    margin-left: 45px;
+}
+
+.threeJs {
+    height: 8px;
+    width: 100px;
+    margin-left: 27px;
+}
+
+.git {
+    height: 8px;
+    width: 200px;
+    margin-left: 65px;
+}
+
+.jira {
+    height: 8px;
+    width: 150px;
+    margin-left: 60px;
+}

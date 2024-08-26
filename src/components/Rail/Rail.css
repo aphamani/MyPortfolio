@@ -1,0 +1,70 @@
+.rail {
+	position: relative;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	overflow: hidden;
+	pointer-events: none;
+    margin-top: -5vh;
+}
+
+.rail_container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rail_sizing {
+	position: relative;
+	opacity: 0;
+	height: auto;
+	width: 420vw;
+
+	@media screen and (min-width: 53em) {
+		width: 232vw;
+	}
+}
+
+.rail_clip {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	-webkit-clip-path: url("#contentTitle");
+	clip-path: url("#contentTitle");
+	animation: clip-anim 20s linear infinite;
+}
+
+.rail_color {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	animation: color-anim 20s linear infinite;
+}
+
+.rail_heading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@keyframes clip-anim {
+	from {
+		transform: translateX(0%);
+   }
+	to {
+		transform: translateX(-50%);
+   }
+}

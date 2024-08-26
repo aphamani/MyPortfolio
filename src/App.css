@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 10rem;
+}
+
+.Home {
+    background-color: #f5eee2;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.Skills {
+    height: 75vh;
+    background-color: #fffbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
